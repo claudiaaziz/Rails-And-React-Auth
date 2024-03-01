@@ -7,11 +7,23 @@ import App from "./App";
 import configureStore from "./store";
 import csrfFetch, { restoreCSRF } from "./store/csrf";
 
+// const store = configureStore();
+
+// if (process.env.NODE_ENV !== "production") {
+//   window.store = store;
+//   window.csrfFetch = csrfFetch;
+// }
+
+
+// test
+import * as sessionActions from "./store/session";
+
 const store = configureStore();
 
 if (process.env.NODE_ENV !== "production") {
   window.store = store;
   window.csrfFetch = csrfFetch;
+  window.sessionActions = sessionActions;
 }
 
 const Root = () => {
