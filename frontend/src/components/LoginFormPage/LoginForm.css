@@ -1,0 +1,14 @@
+.login-form-page {
+  color: pink;
+}
+
+.login-form-page form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-form-page button {
+  width: 50%;
+  align-self: center
+}
