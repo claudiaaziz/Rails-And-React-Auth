@@ -48,6 +48,7 @@ function SignupFormPage() {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
+          autoFocus
         />
       </label>
       <label>

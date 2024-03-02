@@ -5,7 +5,6 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(25, 25, 33, 0.941);
 }
 
 .errors {
